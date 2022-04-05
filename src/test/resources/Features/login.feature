@@ -1,5 +1,7 @@
+@SmokeFeature
 Feature: feature to test login functionality
 
+  @SmokeTest
   Scenario: check login is successfull with valid credentials
     Given user is on login page
     When user entered userid and password
