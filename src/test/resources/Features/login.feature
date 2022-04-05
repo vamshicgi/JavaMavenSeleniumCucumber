@@ -5,4 +5,3 @@ Feature: feature to test login functionality
     When user entered userid and password
     And user clicked on login buttion
     Then user is navigated to home page
-    
